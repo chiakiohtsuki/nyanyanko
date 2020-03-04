@@ -48,9 +48,18 @@ header {
 	text-align: center;	/*内容を中央よせ*/
 }
 /*ロゴ画像設定*/
-#logo {
-	font-size :50px;
 
+#logo span {
+	font-size :70px;
+}
+
+#logo {
+	font-size :30px;
+	text-align: left;
+	font-family: serif;
+	padding: 10px;
+
+}
 
 /*トップページのメイン画像
 ---------------------------------------------------------------------------*/
@@ -87,9 +96,8 @@ header {
 /*コンテンツのh2タグの設定*/
 #contents h2 {
 	clear: both;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #fff;		/*文字色*/
-	padding: 10px 20px;	/*上下、左右への余白*/
 	background: #d08047;	/*背景色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
@@ -104,11 +112,11 @@ header {
 }
 /*コンテンツのp(段落)タグ設定*/
 #contents p {
-	padding: 0px 20px 20px;	/*上、左右、下への余白*/
+
 }
 /*他。微調整。*/
 #contents p + p {
-	margin-top: -5px;
+
 }
 #contents h2 + p,
 #contents h3 + p {
@@ -170,9 +178,15 @@ footer .pr {
 	width: 8em;
 }
 /*記事設定*/
+
 #new dd {
-	padding-left: 8em;
+	padding-left: 10px;
 }
+
+#new h2 {
+	padding-left: 10px;
+}
+
 
 /*テーブル
 ---------------------------------------------------------------------------*/
@@ -269,4 +283,15 @@ body {
 ---------------------------------------------------------------------------*/
 .ws,.wl {width: 94%;}
 
+}
+#new .sizuokaoden {
+	width: 1024px;
+	height: 300px;
+	object-fit: cover;
+}
+
+
+#contents {
+	max-width: 1024px;
+	margin: 0 auto;
 }
