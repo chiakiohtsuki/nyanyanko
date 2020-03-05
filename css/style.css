@@ -140,9 +140,11 @@ header {
 }
 /*画像の設定*/
 .list img {
-	width: 20%;			/*画像幅*/
+	width: 200px;	
+	height: 132px;
 	float: left;		/*画像を左に回り込み*/
-	margin-right: 3%	/*画像の右側に空けるスペース*/
+	margin-right: 3%;	/*画像の右側に空けるスペース*/
+	object-fit: cover;
 }
 /*段落タグ*/
 .list p {
@@ -284,7 +286,7 @@ body {
 .ws,.wl {width: 94%;}
 
 }
-#new .sizuokaoden {
+#new .eatimages {
 	width: 1024px;
 	height: 300px;
 	object-fit: cover;
